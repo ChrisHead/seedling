@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "lib": ["es2018", "esnext", "dom"],
+    "strict": false,
+
+    "esModuleInterop": true
+  },
+  "include": ["../models", "./src"]
+}
